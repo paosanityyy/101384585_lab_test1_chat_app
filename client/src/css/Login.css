@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 50px;
+  margin: auto;
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+
+.loginBtn {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border: 0;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.loginBtn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.signUpMsg {
+  font-size: 12px;
+  margin: auto;
+}
+

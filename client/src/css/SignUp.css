@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 50px; 
+    margin: auto;
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  }
+
+.container > * {
+    margin: 10px;
+}
+
+.inputField {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+}
+
+.loginText {
+    font-size: 12px;
+    margin: auto;
+}
+
+
+.signUpBtn{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+    width: 100px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.signUpBtn:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
